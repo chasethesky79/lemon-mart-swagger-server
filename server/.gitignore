@@ -1,0 +1,27 @@
+logfile.log
+.env
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+logfile.log
+
+# IDE - VSCode
+.vscode/*
+.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+build/
+dist/
+*.cer
+*.pem
+node_modules/
+.DS_Store
+*.pem
+*.cer
+clobbers/
+coverage
